@@ -15,6 +15,10 @@ everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git checkout [dev]` **to prepare working on branch called dev**
 
+`git branch -a` **to all branches**
+
+`git branch -r` **to all only remote branches**
+
 `git remote -v` **to be a little more verbose and show remote url after name**
 
 `git push` **to update remote refs along with associated objects**
