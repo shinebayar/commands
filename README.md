@@ -1,7 +1,7 @@
 # :octocat: 💫 Commands :dizzy: :octocat:
-git commands, additional info repo
+Git commands, additional info repo
 
-everything about git commands. Lessons from [https://www.1234.mn](https://www.1234.mn)
+Everything about git commands. Lessons from [https://www.1234.mn](https://www.1234.mn)
 
 ## Command lists :monocle_face: 😃
 
