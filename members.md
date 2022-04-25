@@ -1,4 +1,4 @@
-## Members
+## Members :octocat:
 
-* Shinebayar
-* Batbaatar
+* 🐳 Shinebayar
+* ☘️ Batbaatar 
