@@ -7,6 +7,8 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git status` **to display files and paths that are different from current head commit**
 
+`git status -s` **to display files in short way**
+
 `git add *` **to prepare the content staged for the next commit**
 
 `git commit` **to create a new commit containing the current contents of the index and the given log message describing the changes**
@@ -24,3 +26,7 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git clone` **to clone a repository into a new directory**
 
 `git push` **to update remote refs along with associated objects**
+
+`git fetch [origin_name/branch_name] **to fetch data to .git/ folder. You can specify origin name or specific branch**
+
+`git merge [origin_name/branch_name] **to merge branches**
