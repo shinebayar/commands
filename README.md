@@ -29,6 +29,8 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git remote add [remote_repo_name] [remote_repo_link]` **to add remote repo by name**
 
+`git remote prune [origin]` **to delete state references associated with <name>**
+
 `git clone` **to clone a repository into a new directory**
 
 `git push` **to update remote refs along with associated objects**
@@ -38,3 +40,4 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git merge [origin_name/branch_name]` **to join two or more development histories together**
 
 `git cat-files -p [234efi3kw3]` **to show what is inside in that file with hash**
+
