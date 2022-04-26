@@ -21,6 +21,10 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git branch -r` **to all only remote branches**
 
+`git branch -d [branch_name]` **to delete branch**
+
+`git branch -D [branch_name]` **to delete branch by force**
+
 `git remote -v` **to be a little more verbose and show remote url after name**
 
 `git remote add [remote_repo_name] [remote_repo_link]` **to add remote repo by name**
