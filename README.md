@@ -23,6 +23,8 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git remote -v` **to be a little more verbose and show remote url after name**
 
+`git remote add [remote_repo_name] [remote_repo_link]` **to add remote repo by name**
+
 `git clone` **to clone a repository into a new directory**
 
 `git push` **to update remote refs along with associated objects**
