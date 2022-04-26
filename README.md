@@ -27,6 +27,8 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git push` **to update remote refs along with associated objects**
 
-`git fetch [origin_name/branch_name] **to fetch data to .git/ folder. You can specify origin name or specific branch**
+`git fetch [origin_name/branch_name]` **to download objects and refs from another repository to .git/ folder. You can specify origin name or specific branch**
 
-`git merge [origin_name/branch_name] **to merge branches**
+`git merge [origin_name/branch_name]` **to join two or more development histories together**
+
+`git cat-files -p [234efi3kw3]` **to show what is inside in that file with hash**
