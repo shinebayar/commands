@@ -33,8 +33,6 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git clone` **to clone a repository into a new directory**
 
-`git push` **to update remote refs along with associated objects**
-
 `git fetch [origin_name/branch_name]` **to download objects and refs from another repository to .git/ folder. You can specify origin name or specific branch**
 
 `git merge [origin_name/branch_name]` **to join two or more development histories together**
@@ -46,3 +44,7 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git ls-files -s` **to show what is inside staging area**
  
 `git pull` **to fetch from and integrate with another repository or a local branch** **>git fetch  + >git merge [branch]** ****
+
+`git push [origin] [branch]` **to update remote refs along with associated objects**
+
+`git push --all` **to update remote refs with all associated objects. with connected upstream and tracking branches**
