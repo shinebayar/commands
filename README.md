@@ -13,11 +13,19 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git commit` **to create a new commit containing the current contents of the index and the given log message describing the changes**
 
+`git log` **to show commit logs**
+
+`git log --oneline` **to show commit logs by one lines. show short logs**
+
 `git ls-files -s` **to show what is inside staging area**
 
 `git restore [file_name]` **to restore files to working tree from staging area. use asterisc or dot to many files**
 
 `git restore --staged [file_name]` **to restore files to staging area from commited repo in local. use asterisc or dot to many files**
+
+`git restore --source HEAD~2 [file_name]` **to restore files to working directory. That is restored from commited files. HEAD~3 => go to before 3 commit, HEAD => go to before one commit** 
+
+`git restore --source HEAD~2 [file_name] --staged` **to restore files to staging area. That is restored from commited files. HEAD~3 => go to before 3 commit, HEAD => go to before one commit** 
 
 `git clean -fd` **to remove untracked files in working tree**
 
