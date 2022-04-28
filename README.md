@@ -13,6 +13,14 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git commit` **to create a new commit containing the current contents of the index and the given log message describing the changes**
 
+`git ls-files -s` **to show what is inside staging area**
+
+`git restore [file_name]` **to restore files to working tree from staging area. use asterisc or dot to many files**
+
+`git restore --staged [file_name]` **to restore files to staging area from commited repo in local. use asterisc or dot to many files**
+
+`git clean -fd` **to remove untracked files in working tree**
+
 `git branch [dev]` **to create new branch called dev**
 
 `git checkout [dev]` **to prepare working on branch called dev**
@@ -47,9 +55,7 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git show-ref [branch_name]` **to list refrence local and remote branche with last commit hash**
 
-`git ls-files -s` **to show what is inside staging area**
- 
-`git pull` **to fetch from and integrate with another repository or a local branch** **>git fetch  + >git merge branch_name** ****
+`git pull` **to fetch from and integrate with another repository or a local branch** **>git fetch  + >git merge branch_name**
 
 `git push [origin] [branch]` **to update remote refs along with associated objects**
 
