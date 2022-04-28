@@ -23,6 +23,8 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git restore --staged [file_name]` **to restore files to staging area from commited repo in local. use asterisc or dot to many files**
 
+`git show HEAD~2:[file_name]` **to show file content that is saved before 2 commits. HEAD~3 => to show before 3 commit, HEAD => to show before one commit**
+
 `git restore --source HEAD~2 [file_name]` **to restore files to working directory. That is restored from commited files. HEAD~3 => go to before 3 commit, HEAD => go to before one commit** 
 
 `git restore --source HEAD~2 [file_name] --staged` **to restore files to staging area. That is restored from commited files. HEAD~3 => go to before 3 commit, HEAD => go to before one commit** 
