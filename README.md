@@ -40,5 +40,9 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git merge [origin_name/branch_name]` **to join two or more development histories together**
 
 `git cat-files -p [234efi3kw3]` **to show what is inside in that file with hash**
+
+`git show [234efi3kw3]` **to show what is inside in that file with hash**
+
+`git ls-files -s` **to show what is inside staging area**
  
-`git pull` **to fetch from and integrate with another repository or a local branch** **>git fetch  + >git merge [branch]**
+`git pull` **to fetch from and integrate with another repository or a local branch** **>git fetch  + >git merge [branch]** ****
