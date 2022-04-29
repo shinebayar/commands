@@ -29,6 +29,10 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git restore --source HEAD~2 [file_name] --staged` **to restore files to staging area. That is restored from commited files. HEAD~3 => go to before 3 commit, HEAD => go to before one commit** 
 
+`git reflog` **to show reference log files in local repo**
+
+`git reset --hard HEAD@{2}` **to reset current head to specified state. You can HEAD@{2} from >git reflog command. --hard points working directory, staging area and local repo.**
+
 `git clean -fd` **to remove untracked files in working tree**
 
 `git branch [dev]` **to create new branch called dev**
