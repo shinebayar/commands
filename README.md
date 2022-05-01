@@ -31,7 +31,7 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git reflog` **to show reference log files in local repo**
 
-`git reset --hard HEAD@{2}` **to reset current head to specified state. You can HEAD@{2} from >git reflog command. --hard points working directory, staging area and local repo.**
+`git reset --hard HEAD@{2}` **to reset current head to specified state. You can HEAD@{2} from >git reflog command. --hard points working directory, staging area and local repo. --mixed points staging area and local repo. --soft points to local repo**
 
 `git clean -fd` **to remove untracked files in working tree**
 
