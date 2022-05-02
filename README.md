@@ -76,3 +76,5 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git push --all` **to update remote refs with all associated objects. with connected upstream and tracking branches**
 
 `git push [origin_name] -d [branch_name]` **to delete remote branch_name. local branch_name stay**
+
+`git push -u [origin_name] [branch_name]` **to push branch to remote and create upstream branch. If there is no same branch in remote branch. -u ---> creates automatically upstream branch in remote repo**
