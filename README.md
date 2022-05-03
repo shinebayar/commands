@@ -83,6 +83,10 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git tag` **to show active tags**
 
+`git tag -l [v0*]` **to show and filter all tags that starts with v0**
+
+`git show [tag-name]` **to show more info about tag**
+
 `git checkout [tag-name]` **to switch to tag. to switch to head of tag created**
 
 `git tag -d [tag-name]` **to delete local tag**
