@@ -78,3 +78,17 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git push [origin_name] -d [branch_name]` **to delete remote branch_name. local branch_name stay**
 
 `git push -u [origin_name] [branch_name]` **to push branch to remote and create upstream branch. If there is no same branch in remote branch. -u ---> creates automatically upstream branch in remote repo**
+
+`git tag -a v0.0.1 [hash] -m "comment-here"` **to create a tag. -a => annotate creater information. You can leave -a**
+
+`git tag` **to show active tags**
+
+`git checkout [tag-name]` **to switch to tag. to switch to head of tag created**
+
+`git tag -d [tag-name]` **to delete local tag**
+
+`git push orgin [tag-name]` **to push tags to remote repository**
+
+`git push orgin --tags` **to push all tags to remote repository**
+
+`git push --delete origin [tag-name]` **delete tag in remote repository**
