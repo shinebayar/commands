@@ -17,6 +17,8 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git log --oneline` **to show commit logs by one lines. show short logs**
 
+`git log --oneline --all --graph` **to show all commit logs by one lines and with graph. show short logs**
+
 `git ls-files -s` **to show what is inside staging area**
 
 `git restore [file_name]` **to restore files to working tree from staging area. use asterisc or dot to many files**
