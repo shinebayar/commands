@@ -97,4 +97,6 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git push orgin --tags` **to push all tags to remote repository**
 
-`git push --delete origin [tag-name]` **delete tag in remote repository**
+`git push --delete origin [tag-name]` **to delete tag in remote repository**
+
+`git merge --squash [branch-name]` **to create condition that produce a single commit of branch_name's all commit. This allows you to create a single commit on top of the current branch whose effect is the same as merging another branch. but do not actually make a commit. You create last single commit by manual**
