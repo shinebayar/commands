@@ -103,4 +103,4 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 
 `git rebase [main-branch]` **to reapply commits on top of another base tip to make linear history. anti polluted history. When occurs conflict -> to solve conflict in vscode or editor -> add edited files in staging area -> >git rebase --continue -> make comment -> to end rebase operation**
 
-`git cherry-pirck [hash]` **to apply the changes introduced by some existing commits**
+`git cherry-pick [hash]` **to apply the changes introduced by some existing commits**
