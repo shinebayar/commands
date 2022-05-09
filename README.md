@@ -106,3 +106,19 @@ Everything about git commands. Lessons from [https://www.1234.mn](https://www.12
 `git rebase -i [branch_name]` **Interactive rebasing. Developer chooses every commit how to rebase**
 
 `git cherry-pick [hash]` **to apply the changes introduced by some existing commits**
+
+`git stash push -am "[comment]"` **Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit. -m ---> message. -a ---> for newly created files**
+
+`git stash list` **List the stash entries that you currently have**
+
+`git stash pop` **Remove a single stashed state from the stash list and apply it on top of the current working tree state, i.e., do the inverse operation of git stash push**
+
+`git stash apply 2` **Like pop, but do not remove the state from the stash list. Go to second stash savings by pointing index. Can show index from list command**
+
+`git stash drop 2` **Remove a single stash entry from the list of stash entrie by index. In that command index is 2**
+
+`git stash clear` **Remove all the stash entries**
+
+`git revert [hash]` **Given one or more existing commits, revert the changes that the related patches introduce, and record some new commits that record them. This requires your working tree to be clean**
+
+`git revert [hash]...[hash]` **to revert commits from hash to hash. If there is conflict. You can fix the conflict in vscode. then add staging area. then >git revert --continue. It creates new comment**
